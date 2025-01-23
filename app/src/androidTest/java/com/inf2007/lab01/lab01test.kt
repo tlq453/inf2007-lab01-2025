@@ -89,7 +89,7 @@ class lab01test {
         composeTestRule.onNodeWithTag("submitButton")
             .performClick()
 
-        // Verify the greeting for "Bob"
+        // Verify the greet ing for "Bob"
         composeTestRule.onNodeWithTag("greetingMsg")
             .assertTextEquals("Hello Bob!, Welcome to INF2007!")
     }
