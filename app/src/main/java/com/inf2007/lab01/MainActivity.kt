@@ -100,7 +100,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = Modifier
             .fillMaxWidth()
             .testTag("greetingMsg")
-    )
+    )   
 }
 
 @Preview(showBackground = true)
